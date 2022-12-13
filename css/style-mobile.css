@@ -12,7 +12,13 @@
         background-color: black;
         padding: 8px;
         cursor: pointer;
-        font-size: 0.9em;
+        font-size: 1.1em;
+    }
+
+    nav #openNav:hover {
+        background-color: white;
+        color: black;
+        transition: 0.3s;
     }
 
     nav #closeNav {
@@ -41,7 +47,7 @@
         width: 0%;
         height: 100%;
         z-index: 1;
-        background-color: rgba(0, 0, 0, 0.767);
+        background-color: rgba(0, 0, 0, 0.801);
         backdrop-filter: blur(3px);
         transition: 0.5s;
         display: flex;
@@ -74,7 +80,6 @@
     nav #links ul li a:hover {
         color: rgb(0, 89, 255);
         transition: 0.5s;
-        border-bottom: solid 1px rgb(0, 89, 255);
     }
 
     /* Estilo do Cabeçalho */
@@ -128,5 +133,20 @@
         margin: auto;
         margin-top: 15px;
         border-radius: 10px;
+    }
+
+    main .sessao-2 div#video {
+        position: relative;
+        background-color: #ff4e1a;
+        padding-bottom: 55%;
+        margin: 30px 0px;
+    }
+    
+    main .sessao-2 #video iframe {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 80%;
+        height: 90%;
     }
 }

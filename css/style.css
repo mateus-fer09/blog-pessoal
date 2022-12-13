@@ -16,7 +16,7 @@
 }
 
 body {
-    height: 2000px;
+    height: 4000px;
 }
 
 /* Estilo do Menu */
@@ -195,4 +195,19 @@ main .container .sessao-1 .recentes .post input:hover {
     background-color: white;
     color: rgb(0, 81, 255);
     transition: 0.3s;
+}
+
+main .sessao-2 div#video {
+    position: relative;
+    background-color: #ff4e1a;
+    padding-bottom: 50%;
+    margin: 30px -40px;
+}
+
+main .sessao-2 #video iframe {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 90%;
+    height: 90%;
 }
