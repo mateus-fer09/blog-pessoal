@@ -53,6 +53,7 @@ nav #links ul li a {
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
     background-color: #333;
+    font-weight: 600;
 }
 
 nav #links ul li a:hover {
@@ -129,6 +130,10 @@ main .container .sessao-1 h3 {
     margin-top: 20px;
     border-bottom: solid 1px black;
     padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 main .container .sessao-1 .recentes {
@@ -171,6 +176,7 @@ main .container .sessao-1 .recentes .post p {
     margin-top: 15px;
     width: 100%;
     color: gray;
+    text-align: justify;
 }
 
 main .container .sessao-1 .recentes .post input {
