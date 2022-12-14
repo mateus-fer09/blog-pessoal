@@ -15,10 +15,6 @@
     padding: 0px 40px;
 }
 
-body {
-    height: 4000px;
-}
-
 /* Estilo do Menu */
 
 nav {
@@ -143,6 +139,7 @@ main .container .sessao-1 .recentes {
     width: 100%;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 main .container .sessao-1 .recentes .post {
@@ -201,15 +198,43 @@ main .container .sessao-1 .recentes .post input:hover {
 
 main .sessao-2 div#video {
     position: relative;
-    background-color: #ff4e1a;
     padding-bottom: 50%;
-    margin: 30px -40px;
+    margin: 0px -40px;
+    background-color: #222;
 }
 
 main .sessao-2 #video iframe {
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 10%;
     width: 80%;
-    height: 90%;
+    height: 80%;
+    border-radius: 13px;
+    box-shadow: 1px 1px 4px 5px rgba(0,0,0,0.5);
+}
+
+footer {
+    height: 100px;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-footer {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-footer #redes-sociais {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer .container-footer #creditos a {
+    color: white;
 }
