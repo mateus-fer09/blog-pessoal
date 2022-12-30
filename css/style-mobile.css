@@ -156,4 +156,13 @@
         width: 80%;
         height: 90%;
     }
+
+    /* ESTILO DA PÁGINA POST */
+
+    .header-post span {
+        font-size: 2em;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

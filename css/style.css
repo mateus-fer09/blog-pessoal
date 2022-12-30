@@ -238,3 +238,20 @@ footer .container-footer #redes-sociais {
 footer .container-footer #creditos a {
     color: white;
 }
+
+
+/* ESTILO DA PÁGINA POST */
+
+.header-post span {
+    color: #222;
+    padding: 10px;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.395);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    text-transform: uppercase;
+    background-color: aliceblue;
+}
